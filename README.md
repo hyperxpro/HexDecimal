@@ -1,4 +1,4 @@
-# HexToDecimal
+# HexDecimal
 Convert Hex To Decimal In Java
 
 ```Java
