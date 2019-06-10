@@ -1,5 +1,5 @@
 # HexDecimal
-Convert Hex To Decimal In Java
+Convert Hex To Decimal and Decimal To Hex In Java
 
 ```Java
 public class Main {
