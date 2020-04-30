@@ -1,5 +1,5 @@
 /* 
- * Copyright (C) 2019 Aayush Atharva
+ * Copyright (C) 2020 Aayush Atharva
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -66,59 +66,41 @@ public class HexToDecimal {
 
         switch (Hex) {
             case "0":
-                return HEX_0;
+                return "0";
             case "1":
-                return HEX_1;
+                return "1";
             case "2":
-                return HEX_2;
+                return "2";
             case "3":
-                return HEX_3;
+                return "3";
             case "4":
-                return HEX_4;
+                return "4";
             case "5":
-                return HEX_5;
+                return "5";
             case "6":
-                return HEX_6;
+                return "6";
             case "7":
-                return HEX_7;
+                return "7";
             case "8":
-                return HEX_8;
+                return "8";
             case "9":
-                return HEX_9;
+                return "9";
             case "A":
-                return HEX_A;
+                return "10";
             case "B":
-                return HEX_B;
+                return "11";
             case "C":
-                return HEX_C;
+                return "12";
             case "D":
-                return HEX_D;
+                return "13";
             case "E":
-                return HEX_E;
+                return "14";
             case "F":
-                return HEX_F;
+                return "15";
             default:
                 break;
         }
 
         return null;
     }
-
-    private static final String HEX_0 = "0";
-    private static final String HEX_1 = "1";
-    private static final String HEX_2 = "2";
-    private static final String HEX_3 = "3";
-    private static final String HEX_4 = "4";
-    private static final String HEX_5 = "5";
-    private static final String HEX_6 = "6";
-    private static final String HEX_7 = "7";
-    private static final String HEX_8 = "8";
-    private static final String HEX_9 = "9";
-    private static final String HEX_A = "10";
-    private static final String HEX_B = "11";
-    private static final String HEX_C = "12";
-    private static final String HEX_D = "13";
-    private static final String HEX_E = "14";
-    private static final String HEX_F = "15";
-
 }
