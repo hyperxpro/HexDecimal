@@ -1,4 +1,4 @@
-/* 
+/*
  * Copyright (C) 2020 Aayush Atharva
  *
  * This program is free software: you can redistribute it and/or modify
@@ -21,7 +21,6 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- *
  * @author Aayush Atharva
  */
 public class HexToDecimal {
